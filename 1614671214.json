@@ -1,0 +1,22 @@
+{
+    "title": "Expose to f4",
+    "rules": [
+        {
+            "description": "Maps f4 to show Application windows",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f4"
+                    },
+                    "to": [
+                        {
+                            "key_code": "down_arrow",
+                            "modifiers": ["left_control"]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

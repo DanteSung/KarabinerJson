@@ -1,0 +1,22 @@
+{
+    "title": "caps_lock as left_control+spacebar",
+    "rules": [
+        {
+            "description": "language_switch",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "caps_lock"
+                    },
+                    "to": [
+                        {
+                            "key_code": "spacebar",
+                            "modifiers": ["left_control"]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
